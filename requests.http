@@ -1,1 +1,22 @@
-GET http://localhost:8080/saludo?name=Cristian
+
+### Sin base de Datos ###
+GET https://idat-saludo.onrender.com/saludo
+
+###
+
+
+### Con base de datos ###
+
+GET https://idat-saludo.onrender.com/all
+###
+
+POST https://idat-saludo.onrender.com/add
+nombre=Matematica
+&credito=3
+
+###
+
+DELETE https://idat-saludo.onrender.com/del
+id=1
+
+###
